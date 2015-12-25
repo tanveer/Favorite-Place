@@ -12,6 +12,15 @@
 		A1B1C67A1C2C847900C9CC49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B1C6781C2C847900C9CC49 /* Main.storyboard */; };
 		A1B1C67C1C2C847900C9CC49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B1C67B1C2C847900C9CC49 /* Assets.xcassets */; };
 		A1B1C67F1C2C847900C9CC49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B1C67D1C2C847900C9CC49 /* LaunchScreen.storyboard */; };
+		A1B1C68A1C2CCC3100C9CC49 /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1C6891C2CCC3100C9CC49 /* CitiesTableViewController.swift */; };
+		A1B1C68D1C2CCC6A00C9CC49 /* Custome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1C68C1C2CCC6A00C9CC49 /* Custome.swift */; };
+		A1B1C68F1C2CD29800C9CC49 /* CustomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1C68E1C2CD29800C9CC49 /* CustomeTableViewCell.swift */; };
+		A1B1C6911C2CE33E00C9CC49 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1C6901C2CE33E00C9CC49 /* DetailViewController.swift */; };
+		A1B1C6931C2CFC5300C9CC49 /* Tokyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1B1C6921C2CFC5300C9CC49 /* Tokyo.jpg */; };
+		A1B1C6961C2CFC6F00C9CC49 /* Kyoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1B1C6951C2CFC6F00C9CC49 /* Kyoto.jpg */; };
+		A1B1C6981C2CFC9600C9CC49 /* Yokohama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1B1C6971C2CFC9600C9CC49 /* Yokohama.jpg */; };
+		A1B1C69A1C2CFCC100C9CC49 /* Osaka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1B1C6991C2CFCC100C9CC49 /* Osaka.jpg */; };
+		A1B1C69C1C2CFF0700C9CC49 /* Kamakura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1B1C69B1C2CFF0700C9CC49 /* Kamakura.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		A1B1C67B1C2C847900C9CC49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B1C67E1C2C847900C9CC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1B1C6801C2C847900C9CC49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B1C6891C2CCC3100C9CC49 /* CitiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
+		A1B1C68C1C2CCC6A00C9CC49 /* Custome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custome.swift; sourceTree = "<group>"; };
+		A1B1C68E1C2CD29800C9CC49 /* CustomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeTableViewCell.swift; sourceTree = "<group>"; };
+		A1B1C6901C2CE33E00C9CC49 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A1B1C6921C2CFC5300C9CC49 /* Tokyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tokyo.jpg; sourceTree = "<group>"; };
+		A1B1C6951C2CFC6F00C9CC49 /* Kyoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kyoto.jpg; sourceTree = "<group>"; };
+		A1B1C6971C2CFC9600C9CC49 /* Yokohama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yokohama.jpg; sourceTree = "<group>"; };
+		A1B1C6991C2CFCC100C9CC49 /* Osaka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Osaka.jpg; sourceTree = "<group>"; };
+		A1B1C69B1C2CFF0700C9CC49 /* Kamakura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kamakura.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,63 @@
 		A1B1C6731C2C847900C9CC49 /* CitiesOfTheWorld */ = {
 			isa = PBXGroup;
 			children = (
-				A1B1C6741C2C847900C9CC49 /* AppDelegate.swift */,
+				A1B1C68B1C2CCC4900C9CC49 /* CustomeFiles */,
+				A1B1C6861C2C848000C9CC49 /* ViewControllers */,
+				A1B1C6881C2C84B700C9CC49 /* Storyboards */,
+				A1B1C6871C2C84A200C9CC49 /* Supporting */,
+			);
+			path = CitiesOfTheWorld;
+			sourceTree = "<group>";
+		};
+		A1B1C6861C2C848000C9CC49 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
 				A1B1C6761C2C847900C9CC49 /* ViewController.swift */,
-				A1B1C6781C2C847900C9CC49 /* Main.storyboard */,
+				A1B1C6891C2CCC3100C9CC49 /* CitiesTableViewController.swift */,
+				A1B1C6901C2CE33E00C9CC49 /* DetailViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A1B1C6871C2C84A200C9CC49 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				A1B1C6741C2C847900C9CC49 /* AppDelegate.swift */,
 				A1B1C67B1C2C847900C9CC49 /* Assets.xcassets */,
+				A1B1C6941C2CFC5F00C9CC49 /* Japan */,
 				A1B1C67D1C2C847900C9CC49 /* LaunchScreen.storyboard */,
 				A1B1C6801C2C847900C9CC49 /* Info.plist */,
 			);
-			path = CitiesOfTheWorld;
+			name = Supporting;
+			sourceTree = "<group>";
+		};
+		A1B1C6881C2C84B700C9CC49 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A1B1C6781C2C847900C9CC49 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		A1B1C68B1C2CCC4900C9CC49 /* CustomeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A1B1C68C1C2CCC6A00C9CC49 /* Custome.swift */,
+				A1B1C68E1C2CD29800C9CC49 /* CustomeTableViewCell.swift */,
+			);
+			name = CustomeFiles;
+			sourceTree = "<group>";
+		};
+		A1B1C6941C2CFC5F00C9CC49 /* Japan */ = {
+			isa = PBXGroup;
+			children = (
+				A1B1C6921C2CFC5300C9CC49 /* Tokyo.jpg */,
+				A1B1C6991C2CFCC100C9CC49 /* Osaka.jpg */,
+				A1B1C6951C2CFC6F00C9CC49 /* Kyoto.jpg */,
+				A1B1C6971C2CFC9600C9CC49 /* Yokohama.jpg */,
+				A1B1C69B1C2CFF0700C9CC49 /* Kamakura.jpg */,
+			);
+			name = Japan;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +189,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B1C69C1C2CFF0700C9CC49 /* Kamakura.jpg in Resources */,
 				A1B1C67F1C2C847900C9CC49 /* LaunchScreen.storyboard in Resources */,
 				A1B1C67C1C2C847900C9CC49 /* Assets.xcassets in Resources */,
+				A1B1C6981C2CFC9600C9CC49 /* Yokohama.jpg in Resources */,
+				A1B1C6931C2CFC5300C9CC49 /* Tokyo.jpg in Resources */,
 				A1B1C67A1C2C847900C9CC49 /* Main.storyboard in Resources */,
+				A1B1C6961C2CFC6F00C9CC49 /* Kyoto.jpg in Resources */,
+				A1B1C69A1C2CFCC100C9CC49 /* Osaka.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B1C68D1C2CCC6A00C9CC49 /* Custome.swift in Sources */,
 				A1B1C6771C2C847900C9CC49 /* ViewController.swift in Sources */,
 				A1B1C6751C2C847900C9CC49 /* AppDelegate.swift in Sources */,
+				A1B1C6911C2CE33E00C9CC49 /* DetailViewController.swift in Sources */,
+				A1B1C68A1C2CCC3100C9CC49 /* CitiesTableViewController.swift in Sources */,
+				A1B1C68F1C2CD29800C9CC49 /* CustomeTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +322,6 @@
 		A1B1C6841C2C847900C9CC49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CitiesOfTheWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tanveerbashir.CitiesOfTheWorld;
@@ -257,7 +332,6 @@
 		A1B1C6851C2C847900C9CC49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CitiesOfTheWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tanveerbashir.CitiesOfTheWorld;
