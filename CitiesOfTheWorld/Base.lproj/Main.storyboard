@@ -196,59 +196,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZqX-Hu-7hh">
-                                <rect key="frame" x="10" y="74" width="580" height="516"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NeO-7A-2fn">
+                                <rect key="frame" x="20" y="72" width="560" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="hWc-WO-mxI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZUN-Dg-eMG">
+                                <rect key="frame" x="20" y="112" width="560" height="214"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NeO-7A-2fn">
-                                        <rect key="frame" x="8" y="8" width="564" height="32"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="32" id="RNz-Vp-w89"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LZo-SH-JTn">
-                                        <rect key="frame" x="8" y="48" width="564" height="180"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tokyo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Fhh-dF-Dg1">
-                                                <rect key="frame" x="8" y="8" width="548" height="164"/>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="Fhh-dF-Dg1" secondAttribute="bottom" constant="8" id="Vdv-nB-Lw9"/>
-                                            <constraint firstItem="Fhh-dF-Dg1" firstAttribute="leading" secondItem="LZo-SH-JTn" secondAttribute="leading" constant="8" id="Z6w-Qy-yRW"/>
-                                            <constraint firstAttribute="height" constant="180" id="lOK-le-Mfl"/>
-                                            <constraint firstItem="Fhh-dF-Dg1" firstAttribute="top" secondItem="LZo-SH-JTn" secondAttribute="top" constant="8" id="vPs-tA-0S7"/>
-                                            <constraint firstAttribute="trailing" secondItem="Fhh-dF-Dg1" secondAttribute="trailing" constant="8" id="xJU-fe-GGK"/>
-                                        </constraints>
-                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QMg-eU-Jpl">
+                                        <rect key="frame" x="8" y="8" width="544" height="197"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="NeO-7A-2fn" firstAttribute="top" secondItem="ZqX-Hu-7hh" secondAttribute="top" constant="8" id="6sD-a7-DeO"/>
-                                    <constraint firstItem="LZo-SH-JTn" firstAttribute="top" secondItem="NeO-7A-2fn" secondAttribute="bottom" constant="8" id="CyO-wT-Rgh"/>
-                                    <constraint firstItem="LZo-SH-JTn" firstAttribute="leading" secondItem="ZqX-Hu-7hh" secondAttribute="leading" constant="8" id="Kw8-tC-YIB"/>
-                                    <constraint firstItem="NeO-7A-2fn" firstAttribute="leading" secondItem="ZqX-Hu-7hh" secondAttribute="leading" constant="8" id="QSi-l4-Kan"/>
-                                    <constraint firstAttribute="trailing" secondItem="LZo-SH-JTn" secondAttribute="trailing" constant="8" id="RF5-qw-qMf"/>
-                                    <constraint firstAttribute="trailing" secondItem="NeO-7A-2fn" secondAttribute="trailing" constant="8" id="zcj-1W-PEZ"/>
+                                    <constraint firstItem="QMg-eU-Jpl" firstAttribute="leading" secondItem="ZUN-Dg-eMG" secondAttribute="leading" constant="8" id="3g6-Rh-yWx"/>
+                                    <constraint firstItem="QMg-eU-Jpl" firstAttribute="top" secondItem="ZUN-Dg-eMG" secondAttribute="top" constant="8" id="OSH-Hx-1e8"/>
+                                    <constraint firstAttribute="trailing" secondItem="QMg-eU-Jpl" secondAttribute="trailing" constant="8" id="POk-9e-AWx"/>
+                                    <constraint firstAttribute="bottom" secondItem="QMg-eU-Jpl" secondAttribute="bottom" constant="9" id="TBd-su-rZl"/>
+                                    <constraint firstAttribute="height" constant="214" id="yDr-WC-e1v"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ZqX-Hu-7hh" firstAttribute="leading" secondItem="acw-DY-bSV" secondAttribute="leading" constant="10" id="RFr-if-u92"/>
-                            <constraint firstItem="ZqX-Hu-7hh" firstAttribute="top" secondItem="GRP-dy-uiZ" secondAttribute="bottom" constant="10" id="aa5-go-MNY"/>
-                            <constraint firstItem="45h-HI-MLF" firstAttribute="top" secondItem="ZqX-Hu-7hh" secondAttribute="bottom" constant="10" id="gYM-iJ-RFO"/>
-                            <constraint firstAttribute="trailing" secondItem="ZqX-Hu-7hh" secondAttribute="trailing" constant="10" id="htf-b8-PAi"/>
+                            <constraint firstItem="NeO-7A-2fn" firstAttribute="top" secondItem="GRP-dy-uiZ" secondAttribute="bottom" constant="8" id="Alb-ri-AXP"/>
+                            <constraint firstItem="ZUN-Dg-eMG" firstAttribute="leading" secondItem="acw-DY-bSV" secondAttribute="leading" constant="20" id="EyO-IS-vMo"/>
+                            <constraint firstItem="ZUN-Dg-eMG" firstAttribute="top" secondItem="NeO-7A-2fn" secondAttribute="bottom" constant="8" id="KAO-Xz-MaM"/>
+                            <constraint firstAttribute="trailing" secondItem="NeO-7A-2fn" secondAttribute="trailing" constant="20" id="Ot1-Un-Ho6"/>
+                            <constraint firstItem="NeO-7A-2fn" firstAttribute="leading" secondItem="acw-DY-bSV" secondAttribute="leading" constant="20" id="gCU-Ne-zfx"/>
+                            <constraint firstAttribute="trailing" secondItem="ZUN-Dg-eMG" secondAttribute="trailing" constant="20" id="kr9-3L-7Yp"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="backView" destination="ZqX-Hu-7hh" id="FGE-wT-ibf"/>
-                        <outlet property="cityImage" destination="Fhh-dF-Dg1" id="9tj-AH-T94"/>
+                        <outlet property="cityImage" destination="QMg-eU-Jpl" id="zjP-bO-j8V"/>
                         <outlet property="cityName" destination="NeO-7A-2fn" id="6ha-9f-cfG"/>
-                        <outlet property="frameView" destination="LZo-SH-JTn" id="NNI-Da-9vL"/>
+                        <outlet property="frameView" destination="ZUN-Dg-eMG" id="vyU-AX-nL8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0mu-AW-SwM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -294,7 +281,6 @@
     </scenes>
     <resources>
         <image name="Bangkok" width="1200" height="900"/>
-        <image name="Tokyo.jpg" width="2000" height="1000"/>
         <image name="World1" width="415" height="422"/>
     </resources>
 </document>

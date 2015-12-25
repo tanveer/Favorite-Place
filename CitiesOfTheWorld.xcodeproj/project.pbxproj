@@ -21,9 +21,12 @@
 		A1B1C6981C2CFC9600C9CC49 /* Yokohama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1B1C6971C2CFC9600C9CC49 /* Yokohama.jpg */; };
 		A1B1C69A1C2CFCC100C9CC49 /* Osaka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1B1C6991C2CFCC100C9CC49 /* Osaka.jpg */; };
 		A1B1C69C1C2CFF0700C9CC49 /* Kamakura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1B1C69B1C2CFF0700C9CC49 /* Kamakura.jpg */; };
+		EF89C574C4183817B21B1A30 /* Pods_CitiesOfTheWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A359390157B700E3E2A9D74 /* Pods_CitiesOfTheWorld.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35F93B2DEAE4734F1017A9A8 /* Pods-CitiesOfTheWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitiesOfTheWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CitiesOfTheWorld/Pods-CitiesOfTheWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		4A359390157B700E3E2A9D74 /* Pods_CitiesOfTheWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CitiesOfTheWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B1C6711C2C847900C9CC49 /* CitiesOfTheWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitiesOfTheWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B1C6741C2C847900C9CC49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1B1C6761C2C847900C9CC49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +43,7 @@
 		A1B1C6971C2CFC9600C9CC49 /* Yokohama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yokohama.jpg; sourceTree = "<group>"; };
 		A1B1C6991C2CFCC100C9CC49 /* Osaka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Osaka.jpg; sourceTree = "<group>"; };
 		A1B1C69B1C2CFF0700C9CC49 /* Kamakura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kamakura.jpg; sourceTree = "<group>"; };
+		D88137EAF7FA00A2F4959B2D /* Pods-CitiesOfTheWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitiesOfTheWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-CitiesOfTheWorld/Pods-CitiesOfTheWorld.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF89C574C4183817B21B1A30 /* Pods_CitiesOfTheWorld.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B220B65A76C09BE6025A059 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35F93B2DEAE4734F1017A9A8 /* Pods-CitiesOfTheWorld.debug.xcconfig */,
+				D88137EAF7FA00A2F4959B2D /* Pods-CitiesOfTheWorld.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A1B1C6681C2C847900C9CC49 = {
 			isa = PBXGroup;
 			children = (
 				A1B1C6731C2C847900C9CC49 /* CitiesOfTheWorld */,
 				A1B1C6721C2C847900C9CC49 /* Products */,
+				2B220B65A76C09BE6025A059 /* Pods */,
+				F6BE22F642CC5C7B9B7772BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +147,14 @@
 			name = Japan;
 			sourceTree = "<group>";
 		};
+		F6BE22F642CC5C7B9B7772BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A359390157B700E3E2A9D74 /* Pods_CitiesOfTheWorld.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1B1C6831C2C847900C9CC49 /* Build configuration list for PBXNativeTarget "CitiesOfTheWorld" */;
 			buildPhases = (
+				E290A75A5FFA09D478D72B63 /* Check Pods Manifest.lock */,
 				A1B1C66D1C2C847900C9CC49 /* Sources */,
 				A1B1C66E1C2C847900C9CC49 /* Frameworks */,
 				A1B1C66F1C2C847900C9CC49 /* Resources */,
+				EA3DC5CD2D42AB5B87900610 /* Embed Pods Frameworks */,
+				4D19CF3DF74BC19F9EB34712 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,6 +228,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D19CF3DF74BC19F9EB34712 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CitiesOfTheWorld/Pods-CitiesOfTheWorld-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E290A75A5FFA09D478D72B63 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA3DC5CD2D42AB5B87900610 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CitiesOfTheWorld/Pods-CitiesOfTheWorld-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1B1C66D1C2C847900C9CC49 /* Sources */ = {
@@ -321,6 +396,7 @@
 		};
 		A1B1C6841C2C847900C9CC49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35F93B2DEAE4734F1017A9A8 /* Pods-CitiesOfTheWorld.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CitiesOfTheWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -331,6 +407,7 @@
 		};
 		A1B1C6851C2C847900C9CC49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88137EAF7FA00A2F4959B2D /* Pods-CitiesOfTheWorld.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CitiesOfTheWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -358,6 +435,7 @@
 				A1B1C6851C2C847900C9CC49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
