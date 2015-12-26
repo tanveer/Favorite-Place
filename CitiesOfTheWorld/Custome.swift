@@ -16,7 +16,10 @@ let VIEW_BACKGROUND = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha
 
 let citiesAndCounteries = [ "Alhambra" : "Spain", "Amsterdam" : "Netherlands", "Angkor_Siem":"Cambodia", "Bangkok" : "Thailand","Barcelona":"Spain", "Burj_Khalifa":"Dubai", "Charles_Bridge":"Prague", "Chichen_Itza":"Mexico", "Eiffle_Tower":"France", "Great_Wall":"China", "Hong_Kong":"Hong_Kong", "Istanbul":"Turkey", "Kuala_Lampur":"Malasyia", "London":"UK", "Big_Ben":"London", "Machu_Picchu":"Peru", "Marina":"Dubai", "Milan_Cathedral":"Italy", "Milan":"Itlay", "New_York":"USA", "Notre_Dame":"France", "Opera_House":"Sidney","Shanghai":"China", "Singapore":"Singapore", "Seoul":"South Korea", "St_Petersburg":"Russia","Taj_Mahal":"India", "Tokyo":"Japan", "Vienna":"Italy"]
 
-let IMAGES_OF_CITIES = ["Japan":["Tokyo", "Kyoto", "Kamakura", "Osaka", "Yokohama"], "USA":["New York", "Chicago","Los Angelos", "San Fransisco", "Boston", "Philadelphia"], "UK":["London", "Manchester", "Wales"]]
+let IMAGES_OF_CITIES = ["Japan":["Tokyo1", "Kyoto", "Kamakura", "Osaka", "Yokohama"], "USA":["New York", "Chicago","Los Angelos", "San Fransisco", "Boston", "Philadelphia"], "UK":["London", "Manchester", "Wales"]]
+
+
+let hisoty = ["Japan":["Food":"Japanese cuisine is based on combining staple foods, typically Japanese rice or noodles, with a soup and okazu — dishes made from fish, vegetable, tofu and the like", "Population":"Estimated at around 127.1 million", "Language":"More than 99 percent of the population speaks Japanese as their first language"]]
 
 let SEGUE_IDENTIFER = "Detail"
 let STORYBORD_IDENTIFIER = "DetailView"
@@ -27,7 +30,7 @@ let STORYBORD_IDENTIFIER = "DetailView"
 extension UIView {
     func setShadow(view:UIView){
         view.backgroundColor = VIEW_BACKGROUND
-        //view.layer.cornerRadius = 5
+        view.layer.cornerRadius = 5
         view.layer.shadowColor = UIColor(red: SHADOW_COLOR, green: SHADOW_COLOR, blue: SHADOW_COLOR, alpha: 1.0).CGColor
         view.layer.shadowOpacity = 1.0
         view.layer.shadowRadius = 3.0

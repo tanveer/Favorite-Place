@@ -16,7 +16,7 @@
 		A1B1C68D1C2CCC6A00C9CC49 /* Custome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1C68C1C2CCC6A00C9CC49 /* Custome.swift */; };
 		A1B1C68F1C2CD29800C9CC49 /* CustomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1C68E1C2CD29800C9CC49 /* CustomeTableViewCell.swift */; };
 		A1B1C6911C2CE33E00C9CC49 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1C6901C2CE33E00C9CC49 /* DetailViewController.swift */; };
-		A1B1C6931C2CFC5300C9CC49 /* Tokyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1B1C6921C2CFC5300C9CC49 /* Tokyo.jpg */; };
+		A1B1C6931C2CFC5300C9CC49 /* Tokyo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1B1C6921C2CFC5300C9CC49 /* Tokyo1.jpg */; };
 		A1B1C6961C2CFC6F00C9CC49 /* Kyoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1B1C6951C2CFC6F00C9CC49 /* Kyoto.jpg */; };
 		A1B1C6981C2CFC9600C9CC49 /* Yokohama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1B1C6971C2CFC9600C9CC49 /* Yokohama.jpg */; };
 		A1B1C69A1C2CFCC100C9CC49 /* Osaka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1B1C6991C2CFCC100C9CC49 /* Osaka.jpg */; };
@@ -38,7 +38,7 @@
 		A1B1C68C1C2CCC6A00C9CC49 /* Custome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custome.swift; sourceTree = "<group>"; };
 		A1B1C68E1C2CD29800C9CC49 /* CustomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeTableViewCell.swift; sourceTree = "<group>"; };
 		A1B1C6901C2CE33E00C9CC49 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		A1B1C6921C2CFC5300C9CC49 /* Tokyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tokyo.jpg; sourceTree = "<group>"; };
+		A1B1C6921C2CFC5300C9CC49 /* Tokyo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tokyo1.jpg; sourceTree = "<group>"; };
 		A1B1C6951C2CFC6F00C9CC49 /* Kyoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kyoto.jpg; sourceTree = "<group>"; };
 		A1B1C6971C2CFC9600C9CC49 /* Yokohama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yokohama.jpg; sourceTree = "<group>"; };
 		A1B1C6991C2CFCC100C9CC49 /* Osaka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Osaka.jpg; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 		A1B1C6941C2CFC5F00C9CC49 /* Japan */ = {
 			isa = PBXGroup;
 			children = (
-				A1B1C6921C2CFC5300C9CC49 /* Tokyo.jpg */,
+				A1B1C6921C2CFC5300C9CC49 /* Tokyo1.jpg */,
 				A1B1C6991C2CFCC100C9CC49 /* Osaka.jpg */,
 				A1B1C6951C2CFC6F00C9CC49 /* Kyoto.jpg */,
 				A1B1C6971C2CFC9600C9CC49 /* Yokohama.jpg */,
@@ -220,7 +220,7 @@
 				A1B1C67F1C2C847900C9CC49 /* LaunchScreen.storyboard in Resources */,
 				A1B1C67C1C2C847900C9CC49 /* Assets.xcassets in Resources */,
 				A1B1C6981C2CFC9600C9CC49 /* Yokohama.jpg in Resources */,
-				A1B1C6931C2CFC5300C9CC49 /* Tokyo.jpg in Resources */,
+				A1B1C6931C2CFC5300C9CC49 /* Tokyo1.jpg in Resources */,
 				A1B1C67A1C2C847900C9CC49 /* Main.storyboard in Resources */,
 				A1B1C6961C2CFC6F00C9CC49 /* Kyoto.jpg in Resources */,
 				A1B1C69A1C2CFCC100C9CC49 /* Osaka.jpg in Resources */,

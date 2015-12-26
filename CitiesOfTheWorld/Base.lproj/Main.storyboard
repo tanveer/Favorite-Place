@@ -196,51 +196,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NeO-7A-2fn">
-                                <rect key="frame" x="20" y="72" width="560" height="32"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="hWc-WO-mxI"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZUN-Dg-eMG">
-                                <rect key="frame" x="20" y="112" width="560" height="214"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kmi-Bx-6dJ">
+                                <rect key="frame" x="20" y="64" width="560" height="191"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QMg-eU-Jpl">
-                                        <rect key="frame" x="8" y="8" width="544" height="197"/>
+                                        <rect key="frame" x="8" y="8" width="544" height="175"/>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEz-zw-P5l">
+                                        <rect key="frame" x="17" y="151" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="QMg-eU-Jpl" firstAttribute="leading" secondItem="ZUN-Dg-eMG" secondAttribute="leading" constant="8" id="3g6-Rh-yWx"/>
-                                    <constraint firstItem="QMg-eU-Jpl" firstAttribute="top" secondItem="ZUN-Dg-eMG" secondAttribute="top" constant="8" id="OSH-Hx-1e8"/>
-                                    <constraint firstAttribute="trailing" secondItem="QMg-eU-Jpl" secondAttribute="trailing" constant="8" id="POk-9e-AWx"/>
-                                    <constraint firstAttribute="bottom" secondItem="QMg-eU-Jpl" secondAttribute="bottom" constant="9" id="TBd-su-rZl"/>
-                                    <constraint firstAttribute="height" constant="214" id="yDr-WC-e1v"/>
+                                    <constraint firstItem="QMg-eU-Jpl" firstAttribute="top" secondItem="Kmi-Bx-6dJ" secondAttribute="top" constant="8" id="0jZ-cH-1qi"/>
+                                    <constraint firstAttribute="height" constant="191" id="IXY-CE-hWO"/>
+                                    <constraint firstAttribute="trailing" secondItem="QMg-eU-Jpl" secondAttribute="trailing" constant="8" id="QhO-O9-iKO"/>
+                                    <constraint firstAttribute="bottom" secondItem="nEz-zw-P5l" secondAttribute="bottom" constant="19" id="ZVq-yo-BQr"/>
+                                    <constraint firstItem="QMg-eU-Jpl" firstAttribute="leading" secondItem="Kmi-Bx-6dJ" secondAttribute="leading" constant="8" id="m2W-WZ-cKk"/>
+                                    <constraint firstAttribute="bottom" secondItem="QMg-eU-Jpl" secondAttribute="bottom" constant="8" id="yhh-VW-LCq"/>
+                                    <constraint firstItem="nEz-zw-P5l" firstAttribute="leading" secondItem="Kmi-Bx-6dJ" secondAttribute="leading" constant="17" id="zW2-Pm-zC7"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.1058823529" green="0.81176470590000005" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="NeO-7A-2fn" firstAttribute="top" secondItem="GRP-dy-uiZ" secondAttribute="bottom" constant="8" id="Alb-ri-AXP"/>
-                            <constraint firstItem="ZUN-Dg-eMG" firstAttribute="leading" secondItem="acw-DY-bSV" secondAttribute="leading" constant="20" id="EyO-IS-vMo"/>
-                            <constraint firstItem="ZUN-Dg-eMG" firstAttribute="top" secondItem="NeO-7A-2fn" secondAttribute="bottom" constant="8" id="KAO-Xz-MaM"/>
-                            <constraint firstAttribute="trailing" secondItem="NeO-7A-2fn" secondAttribute="trailing" constant="20" id="Ot1-Un-Ho6"/>
-                            <constraint firstItem="NeO-7A-2fn" firstAttribute="leading" secondItem="acw-DY-bSV" secondAttribute="leading" constant="20" id="gCU-Ne-zfx"/>
-                            <constraint firstAttribute="trailing" secondItem="ZUN-Dg-eMG" secondAttribute="trailing" constant="20" id="kr9-3L-7Yp"/>
+                            <constraint firstItem="Kmi-Bx-6dJ" firstAttribute="leading" secondItem="acw-DY-bSV" secondAttribute="leadingMargin" id="2NQ-3K-aer"/>
+                            <constraint firstItem="Kmi-Bx-6dJ" firstAttribute="top" secondItem="GRP-dy-uiZ" secondAttribute="bottom" id="I7L-Bb-Bec"/>
+                            <constraint firstItem="Kmi-Bx-6dJ" firstAttribute="trailing" secondItem="acw-DY-bSV" secondAttribute="trailingMargin" id="hpX-lE-RQH"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="cityImage" destination="QMg-eU-Jpl" id="zjP-bO-j8V"/>
-                        <outlet property="cityName" destination="NeO-7A-2fn" id="6ha-9f-cfG"/>
-                        <outlet property="frameView" destination="ZUN-Dg-eMG" id="vyU-AX-nL8"/>
+                        <outlet property="cityName" destination="nEz-zw-P5l" id="pVt-b1-QPQ"/>
+                        <outlet property="frameView" destination="Kmi-Bx-6dJ" id="dX3-p3-p8X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0mu-AW-SwM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3293" y="129"/>
+            <point key="canvasLocation" x="3453" y="124"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YHK-hq-aff">
